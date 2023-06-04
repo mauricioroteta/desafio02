@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #precio{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .producto1{
+    --bs-table-bg: rgb(211, 245, 207);
+  }
+
+  .producto2{
+    --bs-table-bg: rgb(209, 239, 240);
+  }
+
+  .producto3{
+    --bs-table-bg: rgb(241, 213, 243);
+  }
+
+  .content {
+    margin: 5rem;
+  }
+  
+  img {
+    width: 15rem;
+  }
+
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
